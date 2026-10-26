@@ -4,7 +4,7 @@
   ?>
   <body>
     <header>
-      <a href="/Asgards_Fall_Wiki/home.php"
+      <a href="/Asgards_Fall_Wiki/index.php"
         ><img src="/Asgards_Fall_Wiki/assets/img/Asgards_Fall_Logo.webp" alt="Home Button" class="logo"
       /></a>
       <nav>
