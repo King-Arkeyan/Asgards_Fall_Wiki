@@ -1,0 +1,1102 @@
+{
+  "main": {
+    "home": {
+      "characters": {
+        "class": "",
+        "img": "icons/characters_icon.png",
+        "title": "Characters",
+        "description": "Characters are unique fighters with different base attacks and passive abilities that help you in battle",
+        "url": "characters.php"
+      },
+      "abilities": {
+        "class": "",
+        "img": "icons/abilities_icon.png",
+        "title": "Abilities",
+        "description": "Abilities are powers you unlock during the fight that can synergize and fuze with each other to make you stronger",
+        "url": "abilities.php"
+      },
+      "fates": {
+        "class": "",
+        "img": "icons/fates_icon.png",
+        "title": "Fates",
+        "description": "The Knots of Fate allows players to shape their build dynamically during a run.",
+        "url": "fates.php"
+      }
+    },
+    "physical": {
+      "ballista": {
+        "class": "physical",
+        "img": "abilities/physical/ballista.png",
+        "title": "Ballista",
+        "description": "Summon a ballista periodically shooting salvos at nearby enemies.",
+        "url": "abilities/physical/ballista.php"
+      },
+      "dagger_throw": {
+        "class": "physical",
+        "img": "abilities/physical/dagger_throw.png",
+        "title": "Dagger Throw",
+        "description": "Throw sharp daggers towards random targets making enemies bleed.",
+        "url": "abilities/physical/dagger_throw.php"
+      },
+      "fenrirs_claws": {
+        "class": "physical",
+        "img": "abilities/physical/fenrirs_claws.png",
+        "title": "Fenrir's Claws",
+        "description": "Fenrir brutally slashes through random targets.",
+        "url": "abilities/physical/fenrirs_claws.php"
+      },
+      "ferocious_stomp": {
+        "class": "physical",
+        "img": "abilities/physical/ferocious_stomp.png",
+        "title": "Ferocious Stomp",
+        "description": "Unleash a ferocious Stomp damaging enemies around you and stuns them for 3 seconds.",
+        "url": "abilities/physical/ferocious_stomp.php"
+      },
+      "hammer_of_the_righteous": {
+        "class": "physical",
+        "img": "abilities/physical/hammer_of_the_righteous.png",
+        "title": "Hammer of the Righteous",
+        "description": "Throw the Hammers of the Righteous that spin around their target location.",
+        "url": "abilities/physical/hammer_of_the_righteous.php"
+      },
+      "hugin_and_munin": {
+        "class": "physical",
+        "img": "abilities/physical/hugin_and_munin.png",
+        "title": "Hugin and Munin",
+        "description": "Call Hugin and Munin to your side, damaging enemies around you.",
+        "url": "abilities/physical/hugin_and_munin.php"
+      },
+      "ride_of_the_valkyries": {
+        "class": "physical",
+        "img": "abilities/physical/ride_of_the_valkyries.png",
+        "title": "Ride of the Valkyries",
+        "description": "Valkyries periodically ride through the battlefield damaging enemies in their paths.",
+        "url": "abilities/physical/ride_of_the_valkyries.php"
+      },
+      "shattering_ground": {
+        "class": "physical",
+        "img": "abilities/physical/shattering_ground.png",
+        "title": "Shattering Ground",
+        "description": "Shatter the ground towards a random target.",
+        "url": "abilities/physical/shattering_ground.php"
+      },
+      "spear_of_the_elder": {
+        "class": "physical",
+        "img": "abilities/physical/spear_of_the_elder.png",
+        "title": "Spear of the Elder",
+        "description": "Throw a spear at a random target damaging close enemies on impact. When collecting the spear you swing it around, damaging and knocking back enemies.",
+        "url": "abilities/physical/spear_of_the_elder.php"
+      },
+      "whirl_slash": {
+        "class": "physical",
+        "img": "abilities/physical/whirl_slash.png",
+        "title": "Whirl Slash",
+        "description": "Rapidly whirl your sword around you.",
+        "url": "abilities/physical/whirl_slash.php"
+      }
+    },
+    "fire": {
+      "ember_axe": {
+        "class": "fire",
+        "img": "abilities/fire/ember_axe.png",
+        "title": "Ember Axe",
+        "description": "Throw exploding axes towards random targets.",
+        "url": "abilities/fire/ember_axe.php"
+      },
+      "fiery_rune": {
+        "class": "fire",
+        "img": "abilities/fire/fiery_rune.png",
+        "title": "Fiery Rune",
+        "description": "Marks an enemy with a rune that explodes after a short time.",
+        "url": "abilities/fire/fiery_rune.php"
+      },
+      "firewolfs_fury": {
+        "class": "fire",
+        "img": "abilities/fire/firewolfs_fury.png",
+        "title": "Firewolf's Fury",
+        "description": "Summon the Firewolf's Fury, a blazing wolf spirit attacking enemies alongside you.",
+        "url": "abilities/fire/firewolfs_fury.php"
+      },
+      "flamebound_leech": {
+        "class": "fire",
+        "img": "abilities/fire/flamebound_leech.png",
+        "title": "Flamebound Leech",
+        "description": "Burn targeted enemies from the inside and heal for 1% of the damage dealt.",
+        "url": "abilities/fire/flamebound_leech.php"
+      },
+      "flesh-searing_heat": {
+        "class": "fire",
+        "img": "abilities/fire/flesh-searing_heat.png",
+        "title": "Flesh-Searing Heat",
+        "description": "Create a persistent aura around you that inflicts damage and ignites enemies.",
+        "url": "abilities/fire/flesh-searing_heat.php"
+      },
+      "giants_tooth": {
+        "class": "fire",
+        "img": "abilities/fire/giants_tooth.png",
+        "title": "Giant's Tooth",
+        "description": "Pierce random targets with massive spears.",
+        "url": "abilities/fire/giants_tooth.php"
+      },
+      "jotunfire_outburst": {
+        "class": "fire",
+        "img": "abilities/fire/jotunfire_outburst.png",
+        "title": "Jotunfire Outburst",
+        "description": "Summon fiery vulcanos periodically bursting out.",
+        "url": "abilities/fire/jotunfire_outburst.php"
+      },
+      "magma_sphere": {
+        "class": "fire",
+        "img": "abilities/fire/magma_sphere.png",
+        "title": "Magma Sphere",
+        "description": "Hurl a slow-moving magma sphere towards your cursor position, leaving a trail of fire behind.",
+        "url": "abilities/fire/magma_sphere.php"
+      },
+      "molten_trap": {
+        "class": "fire",
+        "img": "abilities/fire/molten_trap.png",
+        "title": "Molten Trap",
+        "description": "Place a molten trap beneath you that triggers a rotating firebeam upon enemy contact.",
+        "url": "abilities/fire/molten_trap.php"
+      },
+      "surturs_inferno": {
+        "class": "fire",
+        "img": "abilities/fire/surturs_inferno.png",
+        "title": "Surtur's Inferno",
+        "description": "Summon fire tornados roaming around on the battlefield.",
+        "url": "abilities/fire/surturs_inferno.php"
+      }
+    },
+    "ice": {
+      "arctic_assault": {
+        "class": "ice",
+        "img": "abilities/ice/arctic_assault.png",
+        "title": "Arctic Assault",
+        "description": "Massive pieces of ice dropping from the sky and detonating on random locations.",
+        "url": "abilities/ice/arctic_assault.php"
+      },
+      "bone-chilling_cold": {
+        "class": "ice",
+        "img": "abilities/ice/bone-chilling_cold.png",
+        "title": "Bone-Chilling Cold",
+        "description": "Create a persistent aura around you that slows enemies and applies the Chill effect.",
+        "url": "abilities/ice/bone-chilling_cold.php"
+      },
+      "flurry_of_knives": {
+        "class": "ice",
+        "img": "abilities/ice/flurry_of_knives.png",
+        "title": "Flurry of Knives",
+        "description": "Throw icy knives in the target direction, hitting enemies in quick succession.",
+        "url": "abilities/ice/flurry_of_knives.php"
+      },
+      "frost_orbit": {
+        "class": "ice",
+        "img": "abilities/ice/frost_orbit.png",
+        "title": "Frost Orbit",
+        "description": "Summon icicles orbiting around you and damaging nearby enemies",
+        "url": "abilities/ice/frost_orbit.php"
+      },
+      "frost_trap": {
+        "class": "ice",
+        "img": "abilities/ice/frost_trap.png",
+        "title": "Frost Trap",
+        "description": "Places a frost trap beneath you that triggers piercing projectiles upon enemy contact.",
+        "url": "abilities/ice/frost_trap.php"
+      },
+      "glacial_sunder": {
+        "class": "ice",
+        "img": "abilities/ice/glacial_sunder.png",
+        "title": "Glacial Sunder",
+        "description": "Frost spikes erupt from the ground at random targets.",
+        "url": "abilities/ice/glacial_sunder.php"
+      },
+      "leviathan_axe_throw": {
+        "class": "ice",
+        "img": "abilities/ice/leviathan_axe_throw.png",
+        "title": "Leviathan Axe Throw",
+        "description": "Throw the Leviathan Axe towards a random target, lingering at the position before returning back.",
+        "url": "abilities/ice/leviathan_axe_throw.php"
+      },
+      "skadis_ice_arrow": {
+        "class": "ice",
+        "img": "abilities/ice/skadis_ice_arrow.png",
+        "title": "Skadi's Ice Arrow",
+        "description": "Shoot ice arrows towards random targets, freezing them in place.",
+        "url": "abilities/ice/skadis_ice_arrow.php"
+      },
+      "ymirs_avalanche": {
+        "class": "ice",
+        "img": "abilities/ice/ymirs_avalanche.png",
+        "title": "Ymir's Avalanche",
+        "description": "Roll a snowball towards the target direction. The snowball grows in size and increases it's damage the bigger it gets.",
+        "url": "abilities/ice/ymirs_avalanche.php"
+      }
+    },
+    "lightning": {
+      "gungir": {
+        "class": "lightning",
+        "img": "abilities/lightning/gungir.png",
+        "title": "Gungir",
+        "description": "Throw Gungnir at a random target, exploding on impact.",
+        "url": "abilities/lightning/gungir.php"
+      },
+      "lokis_electric_mirage": {
+        "class": "lightning",
+        "img": "abilities/lightning/lokis_electric_mirage.png",
+        "title": "Loki's Electric Mirage",
+        "description": "Create afterimages of lightning which slowly move to a random target and detonate when touched by an enemy.",
+        "url": "abilities/lightning/lokis_electric_mirage.php"
+      },
+      "mjolnir": {
+        "class": "lightning",
+        "img": "abilities/lightning/mjolnir.png",
+        "title": "Mjölnir",
+        "description": "Throw the mighty Mjölnir in a random direction, ricocheting off enemies.",
+        "url": "abilities/lightning/mjolnir.php"
+      },
+      "serpents_coil": {
+        "class": "lightning",
+        "img": "abilities/lightning/serpents_coil.png",
+        "title": "Serpents Coil",
+        "description": "Call a electrifying serpent from the ground damaging enemies in its way.",
+        "url": "abilities/lightning/serpents_coil.php"
+      },
+      "thors_wrath": {
+        "class": "lightning",
+        "img": "abilities/lightning/thors_wrath.png",
+        "title": "Thor's Wrath",
+        "description": "Call lightning from the sky hitting random targets and the surroundings.",
+        "url": "abilities/lightning/thors_wrath.php"
+      },
+      "thunderous_tether": {
+        "class": "lightning",
+        "img": "abilities/lightning/thunderous_tether.png",
+        "title": "Thunderous Tether",
+        "description": "Place a lightning gem near you creating a electrical chain between you and the gem. Enemies touching the chain take damage.",
+        "url": "abilities/lightning/thunderous_tether.php"
+      },
+      "tyrs_judgement": {
+        "class": "lightning",
+        "img": "abilities/lightning/tyrs_judgement.png",
+        "title": "Tyr's Judgement",
+        "description": "Call Tyr's Greatsword emitting electric shocks to random targets.",
+        "url": "abilities/lightning/tyrs_judgement.php"
+      },
+      "yggdrasils_pulse": {
+        "class": "lightning",
+        "img": "abilities/lightning/yggdrasils_pulse.png",
+        "title": "Yggdrasil's Pulse",
+        "description": "Hurl a slow moving electric pulse towards your cursor position.",
+        "url": "abilities/lightning/yggdrasils_pulse.php"
+      }
+    },
+    "forged": {
+      "burning_chaos_blades": {
+        "class": "forged",
+        "img": "abilities/forged/burning_chaos_blades.png",
+        "title": "Burning Chaos Blades",
+        "description": "Swing burning Chaos Blades around you damaging, igniting and making enemies bleed.",
+        "url": "abilities/forged/burning_chaos_blades.php"
+      },
+      "electrified_axes": {
+        "class": "forged",
+        "img": "abilities/forged/electrified_axes.png",
+        "title": "Electrified Axes",
+        "description": "Throw electrified flaming axes that explode and create afterimages of themselves on impact.",
+        "url": "abilities/forged/electrified_axes.php"
+      },
+      "frostfang_ring": {
+        "class": "forged",
+        "img": "abilities/forged/frostfang_ring.png",
+        "title": "Frostfang Ring",
+        "description": "Summon a giant frost wall around you errupting from the ground and moving outwards.",
+        "url": "abilities/forged/frostfang_ring.php"
+      },
+      "helstorm": {
+        "class": "forged",
+        "img": "abilities/forged/helstorm.png",
+        "title": "Helstorm",
+        "description": "Summon flaming tornados infused with frost from Hel shooting out piercing icicles.",
+        "url": "abilities/forged/helstorm.php"
+      },
+      "odins_ice_arrows": {
+        "class": "forged",
+        "img": "abilities/forged/odins_ice_arrows.png",
+        "title": "Odin's Ice Arrows",
+        "description": "Shoot Odin's icy arrows towards random targets, freezing them in place, exploding and applying shock on impact.",
+        "url": "abilities/forged/odins_ice_arrows.php"
+      },
+      "shattering_leviathan_axe": {
+        "class": "forged",
+        "img": "abilities/forged/shattering_leviathan_axe.png",
+        "title": "Shattering Leviathan Axe",
+        "description": "Throw the Leviathan Axe towards a random target, lingering at the position before returning back. From the heavy swing it periodically launches shattered pieces into a random direction.",
+        "url": "abilities/forged/shattering_leviathan_axe.php"
+      },
+      "stormpiercer": {
+        "class": "forged",
+        "img": "abilities/forged/stormpiercer.png",
+        "title": "Stormpiercer",
+        "description": "Summon the Stormpiercer, periodically shooting electric pulses at nearby enemies.",
+        "url": "abilities/forged/stormpiercer.php"
+      },
+      "thunderclaw": {
+        "class": "forged",
+        "img": "abilities/forged/thunderclaw.png",
+        "title": "Thunderclaw",
+        "description": "Fenrir gets infused with electric energy and slashes brutally through random targets.",
+        "url": "abilities/forged/thunderclaw.php"
+      }
+    }
+  },
+
+  "characters": {
+    "warrior": {
+      "img": "abilities/hero/warrior.png",
+      "title": "Warrior",
+      "class": "physical",
+      "role": "Frontline brawler and durable combatant.",
+      "playstyle": "Excels in close-range combat with high survivability and area control. Perfect for players who want to dive into the action and absorb hits while dishing out heavy damage.",
+      "trait1": "High base health and armor",
+      "trait2": "Often benefits from AoE effects and self-sustain",
+      "ability": "Bloodveil",
+      "url": "bloodveil.php"
+    },
+    "huntress": {
+      "img": "abilities/hero/huntress.png",
+      "title": "Huntress",
+      "class": "poison",
+      "role": "Agile ranged fighter and precision killer.",
+      "playstyle": "Ideal for players who enjoy mobility and keeping distance from enemies while dealing consistent damage with projectiles.",
+      "trait1": "High movement speed",
+      "trait2": "Specializes in crits, traps, or piercing effects and arrows",
+      "ability": "Mistbane",
+      "url": "mistbane.php"
+    },
+    "seer": {
+      "img": "abilities/hero/seer.png",
+      "title": "Seer",
+      "class": "cursed",
+      "role": "Status-inflicting spellcaster.",
+      "playstyle": "Uses mystical powers to apply debilitating effects and control the battlefield over time. A strategic choice for players who enjoy layering bleed, burn, shock, and other conditions to weaken enemies before finishing them off.",
+      "trait1": "Moderate defense, high utility",
+      "trait2": "Strong synergy with elemental or status-based builds",
+      "ability": "Curseweaver",
+      "url": "curseweaver.php"
+    }
+  },
+
+  "hero": {
+    "bloodveil": {
+      "class": "physical",
+      "title": "Bloodveil",
+      "img": "hero/warrior.png",
+      "description": "Bloodveil is the first weapon / ability the hero gets and belongs to the Warrior.",
+      "baseDamage": "50",
+      "baseCooldown": "1",
+      "damageType": "Physical",
+      "abilityType": "Melee",
+      "url": "characters.php",
+      "page": "Characters",
+      "baseAmount": "1",
+      "basePierceAmount": "Inf"
+    },
+    "mistbane": {
+      "class": "poison",
+      "title": "Mistbane",
+      "img": "hero/huntress.png",
+      "description": "Mistbane is the second weapon / ability the hero gets and belongs to the Huntress.",
+      "baseDamage": "50",
+      "baseCooldown": "1",
+      "damageType": "Physical / Poison",
+      "abilityType": "Ranged",
+      "url": "characters.php",
+      "page": "Characters",
+      "baseAmount": "1",
+      "basePierceAmount": "Unknown"
+    },
+    "curseweaver": {
+      "class": "cursed",
+      "title": "Curseweaver",
+      "img": "hero/seer.png",
+      "description": "Curseweaver is the third weapon / ability the hero gets and belongs to the Seer.",
+      "baseDamage": "50",
+      "baseCooldown": "1",
+      "damageType": "Elemental / Status",
+      "abilityType": "Ranged",
+      "url": "characters.php",
+      "page": "Characters",
+      "baseAmount": "Unknown",
+      "basePierceAmount": "None"
+    }
+  },
+
+  "physical": {
+    "ballista": {
+      "class": "physical",
+      "title": "Ballista",
+      "img": "physical/ballista.png",
+      "description": "Summon a ballista periodically shooting salvos at nearby enemies.",
+      "baseDamage": "20",
+      "baseCooldown": "15",
+      "baseAmount": "1",
+      "abilityType": "Summon",
+      "basePierceAmount": "5",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "dagger_throw": {
+      "class": "physical",
+      "title": "Dagger Throw",
+      "img": "physical/dagger_throw.png",
+      "description": "Throw sharp daggers towards random targets making enemies bleed.",
+      "baseDamage": "25",
+      "baseCooldown": "2",
+      "baseAmount": "3",
+      "abilityType": "Ranged",
+      "basePierceAmount": "1",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "fenrirs_claws": {
+      "class": "physical",
+      "title": "Fenrir's Claws",
+      "img": "physical/fenrirs_claws.png",
+      "description": "Fenrir brutally slashes through random targets.",
+      "baseDamage": "70",
+      "baseCooldown": "4",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "ferocious_stomp": {
+      "class": "physical",
+      "title": "Ferocious Stomp",
+      "img": "physical/ferocious_stomp.png",
+      "description": "Unleash a ferocious Stomp damaging enemies around you and stuns them for 3 seconds.",
+      "baseDamage": "140",
+      "baseCooldown": "10",
+      "baseAmount": "1",
+      "abilityType": "Melee",
+      "basePierceAmount": "None",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "hammer_of_the_righteous": {
+      "class": "physical",
+      "title": "Hammer of the Righteous",
+      "img": "physical/hammer_of_the_righteous.png",
+      "description": "Throw the Hammers of the Righteous that spin around their target location.",
+      "baseDamage": "45",
+      "baseCooldown": "5",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "hugin_and_munin": {
+      "class": "physical",
+      "title": "Hugin and Munin",
+      "img": "physical/hugin_and_munin.png",
+      "description": "Call Hugin and Munin to your side, damaging enemies around you.",
+      "baseDamage": "60",
+      "baseCooldown": "None",
+      "baseAmount": "2",
+      "abilityType": "Summon",
+      "basePierceAmount": "None",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "ride_of_the_valkyries": {
+      "class": "physical",
+      "title": "Ride of the Valkyries",
+      "img": "physical/ride_of_the_valkyries.png",
+      "description": "Valkyries periodically ride through the battlefield damaging enemies in their paths.",
+      "baseDamage": "40",
+      "baseCooldown": "6",
+      "baseAmount": "4",
+      "abilityType": "Summon",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "shattering_ground": {
+      "class": "physical",
+      "title": "Shattering Ground",
+      "img": "physical/shattering_ground.png",
+      "description": "Shatter the ground towards a random target.",
+      "baseDamage": "25",
+      "baseCooldown": "6",
+      "baseAmount": "1",
+      "abilityType": "Melee",
+      "basePierceAmount": "None",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "spear_of_the_elder": {
+      "class": "physical",
+      "title": "Spear of the Elder",
+      "img": "physical/spear_of_the_elder.png",
+      "description": "Throw a spear at a random target damaging close enemies on impact. When collecting the spear you swing it around, damaging and knocking back enemies.",
+      "baseDamage": "90",
+      "baseCooldown": "7",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    },
+    "whirl_slash": {
+      "class": "physical",
+      "title": "Whirl Slash",
+      "img": "physical/whirl_slash.png",
+      "description": "Rapidly whirl your sword around you.",
+      "baseDamage": "180",
+      "baseCooldown": "6",
+      "baseAmount": "1",
+      "abilityType": "Melee",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/physical.php",
+      "page": "Physical Abilities"
+    }
+  },
+
+  "fire": {
+    "ember_axe": {
+      "class": "fire",
+      "title": "Ember Axe",
+      "img": "fire/ember_axe.png",
+      "description": "Throw exploding axes towards random targets.",
+      "baseDamage": "65",
+      "baseCooldown": "8",
+      "baseAmount": "2",
+      "abilityType": "Explosive",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "fiery_rune": {
+      "class": "fire",
+      "title": "Fiery Rune",
+      "img": "fire/fiery_rune.png",
+      "description": "Marks an enemy with a rune that explodes after a short time.",
+      "baseDamage": "45",
+      "baseCooldown": "9",
+      "baseAmount": "3",
+      "abilityType": "Explosive",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "firewolfs_fury": {
+      "class": "fire",
+      "title": "Firewolf's Fury",
+      "img": "fire/firewolfs_fury.png",
+      "description": "Summon the Firewolf's Fury, a blazing wolf spirit attacking enemies alongside you.",
+      "baseDamage": "100",
+      "baseCooldown": "None",
+      "baseAmount": "3",
+      "abilityType": "Summon",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "flamebound_leech": {
+      "class": "fire",
+      "title": "Flamebound Leech",
+      "img": "fire/flamebound_leech.png",
+      "description": "Burn targeted enemies from the inside and heal for 1% of the damage dealt.",
+      "baseDamage": "15",
+      "baseCooldown": "9",
+      "baseAmount": "2",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "flesh-searing_heat": {
+      "class": "fire",
+      "title": "Flesh-Searing Heat",
+      "img": "fire/flesh-searing_heat.png",
+      "description": "Create a persistent aura around you that inflicts damage and ignites enemies.",
+      "baseDamage": "5",
+      "baseCooldown": "None",
+      "baseAmount": "1",
+      "abilityType": "Aura",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "giants_tooth": {
+      "class": "fire",
+      "title": "Giant's Tooth",
+      "img": "fire/giants_tooth.png",
+      "description": "Pierce random targets with massive spears.",
+      "baseDamage": "40",
+      "baseCooldown": "3",
+      "baseAmount": "3",
+      "abilityType": "Melee",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "jotunfire_outburst": {
+      "class": "fire",
+      "title": "Jotunfire Outburst",
+      "img": "fire/jotunfire_outburst.png",
+      "description": "Summon fiery vulcanos periodically bursting out.",
+      "baseDamage": "55",
+      "baseCooldown": "16",
+      "baseAmount": "2",
+      "abilityType": "Summon",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "magma_sphere": {
+      "class": "fire",
+      "title": "Magma Sphere",
+      "img": "fire/magma_sphere.png",
+      "description": "Hurl a slow-moving magma sphere towards your cursor position, leaving a trail of fire behind.",
+      "baseDamage": "80",
+      "baseCooldown": "8",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "molten_trap": {
+      "class": "fire",
+      "title": "Molten Trap",
+      "img": "fire/molten_trap.png",
+      "description": "Place a molten trap beneath you that triggers a rotating firebeam upon enemy contact.",
+      "baseDamage": "50",
+      "baseCooldown": "6",
+      "baseAmount": "1",
+      "abilityType": "Trap",
+      "basePierceAmount": "None",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    },
+    "surturs_inferno": {
+      "class": "fire",
+      "title": "Surtur's Inferno",
+      "img": "fire/surturs_inferno.png",
+      "description": "Summon fire tornados roaming around on the battlefield.",
+      "baseDamage": "30",
+      "baseCooldown": "7",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/fire.php",
+      "page": "Fire Abilities"
+    }
+  },
+
+  "ice": {
+    "arctic_assault": {
+      "class": "ice",
+      "title": "Arctic Assault",
+      "img": "ice/arctic_assault.png",
+      "description": "Massive pieces of ice dropping from the sky and detonating on random locations.",
+      "baseDamage": "80",
+      "baseCooldown": "7",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "bone-chilling_cold": {
+      "class": "ice",
+      "title": "Bone-Chilling Cold",
+      "img": "ice/bone-chilling_cold.png",
+      "description": "Create a persistent aura around you that slows enemies and applies the Chill effect.",
+      "baseDamage": "0",
+      "baseCooldown": "None",
+      "baseAmount": "1",
+      "abilityType": "Aura",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "flurry_of_knives": {
+      "class": "ice",
+      "title": "Flurry of Knives",
+      "img": "ice/flurry_of_knives.png",
+      "description": "Throw icy knives in the target direction, hitting enemies in quick succession.",
+      "baseDamage": "35",
+      "baseCooldown": "8",
+      "baseAmount": "10",
+      "abilityType": "Melee",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "frost_orbit": {
+      "class": "ice",
+      "title": "Frost Orbit",
+      "img": "ice/frost_orbit.png",
+      "description": "Summon icicles orbiting around you and damaging nearby enemies",
+      "baseDamage": "45",
+      "baseCooldown": "15",
+      "baseAmount": "1",
+      "abilityType": "Melee",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "frost_trap": {
+      "class": "ice",
+      "title": "Frost Trap",
+      "img": "ice/frost_trap.png",
+      "description": "Places a frost trap beneath you that triggers piercing projectiles upon enemy contact.",
+      "baseDamage": "35",
+      "baseCooldown": "8",
+      "baseAmount": "1",
+      "abilityType": "Trap",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "glacial_sunder": {
+      "class": "ice",
+      "title": "Glacial Sunder",
+      "img": "ice/glacial_sunder.png",
+      "description": "Frost spikes erupt from the ground at random targets.",
+      "baseDamage": "45",
+      "baseCooldown": "4",
+      "baseAmount": "2",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "leviathan_axe_throw": {
+      "class": "ice",
+      "title": "Leviathan Axe Throw",
+      "img": "ice/leviathan_axe_throw.png",
+      "description": "Throw the Leviathan Axe towards a random target, lingering at the position before returning back.",
+      "baseDamage": "45",
+      "baseCooldown": "10",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "skadis_ice_arrow": {
+      "class": "ice",
+      "title": "Ballista",
+      "img": "ice/skadis_ice_arrow.png",
+      "description": "Shoot ice arrows towards random targets, freezing them in place.",
+      "baseDamage": "5",
+      "baseCooldown": "6",
+      "baseAmount": "4",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    },
+    "ymirs_avalanche": {
+      "class": "ice",
+      "title": "Ymir's Avalanche",
+      "img": "ice/ymirs_avalanche.png",
+      "description": "Roll a snowball towards the target direction. The snowball grows in size and increases it's damage the bigger it gets.",
+      "baseDamage": "30",
+      "baseCooldown": "8",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/ice.php",
+      "page": "Ice Abilities"
+    }
+  },
+
+  "lightning": {
+    "gungir": {
+      "class": "lightning",
+      "title": "Gungir",
+      "img": "lightning/gungir.png",
+      "description": "Throw Gungnir at a random target, exploding on impact.",
+      "baseDamage": "40",
+      "baseCooldown": "5",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "lokis_electric_mirage": {
+      "class": "lightning",
+      "title": "Ballista",
+      "img": "lightning/lokis_electric_mirage.png",
+      "description": "Create afterimages of lightning which slowly move to a random target and detonate when touched by an enemy.",
+      "baseDamage": "45",
+      "baseCooldown": "8",
+      "baseAmount": "3",
+      "abilityType": "Explosive",
+      "basePierceAmount": "None",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "mjolnir": {
+      "class": "lightning",
+      "title": "Mjölnir",
+      "img": "lightning/mjolnir.png",
+      "description": "Throw the mighty Mjölnir in a random direction, ricocheting off enemies.",
+      "baseDamage": "35",
+      "baseCooldown": "8",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "serpents_coil": {
+      "class": "lightning",
+      "title": "Serpents Coil",
+      "img": "lightning/serpents_coil.png",
+      "description": "Call a electrifying serpent from the ground damaging enemies in its way.",
+      "baseDamage": "80",
+      "baseCooldown": "6",
+      "baseAmount": "1",
+      "abilityType": "Summon",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "thors_wrath": {
+      "class": "lightning",
+      "title": "Thor's Wrath",
+      "img": "lightning/thors_wrath.png",
+      "description": "Call lightning from the sky hitting random targets and the surroundings.",
+      "baseDamage": "50",
+      "baseCooldown": "7",
+      "baseAmount": "3",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "thunderous_tether": {
+      "class": "lightning",
+      "title": "Thunderous Tether",
+      "img": "lightning/thunderous_tether.png",
+      "description": "Place a lightning gem near you creating a electrical chain between you and the gem. Enemies touching the chain take damage.",
+      "baseDamage": "10",
+      "baseCooldown": "12",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "tyrs_judgement": {
+      "class": "lightning",
+      "title": "Tyr's Judgement",
+      "img": "lightning/tyrs_judgement.png",
+      "description": "Call Tyr's Greatsword emitting electric shocks to random targets.",
+      "baseDamage": "40",
+      "baseCooldown": "8",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "None",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    },
+    "yggdrasils_pulse": {
+      "class": "lightning",
+      "title": "Yggdrasil's Pulse",
+      "img": "lightning/yggdrasils_pulse.png",
+      "description": "Hurl a slow moving electric pulse towards your cursor position.",
+      "baseDamage": "60",
+      "baseCooldown": "7",
+      "baseAmount": "1",
+      "abilityType": "Ranged",
+      "basePierceAmount": "Inf",
+      "url": "/abilities/lightning.php",
+      "page": "Lightning Abilities"
+    }
+  },
+
+  "forged": {
+    "shattering_leviathan_axe": {
+      "class": "forged",
+      "title": "Shattering Leviathan Axe",
+      "img": "forged/shattering_leviathan_axe.png",
+      "description": "Throw the Leviathan Axe towards a random target, lingering at the position before returning back. From the heavy swing it periodically launches shattered pieces into a random direction.",
+      "baseDamage": "195",
+      "baseCooldown": "12",
+      "baseAmount": "1",
+      "damageType": "Physical / Ice",
+      "abilityType": "Ranged",
+      "ability1": "Dagger Throw",
+      "ability2": "Leviathan Axe",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "electrified_axes": {
+      "class": "forged",
+      "title": "Electrified Axes",
+      "img": "forged/electrified_axes.png",
+      "description": "Throw electrified flaming axes that explode and create afterimages of themselves on impact.",
+      "baseDamage": "200",
+      "baseCooldown": "11",
+      "baseAmount": "3",
+      "damageType": "Fire / Lightning",
+      "abilityType": "Explosive",
+      "ability1": "Ember Axe",
+      "ability2": "Loki's Electric Mirage",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "burning_chaos_blades": {
+      "class": "forged",
+      "title": "Burning Chaos Blades",
+      "img": "forged/burning_chaos_blades.png",
+      "description": "Swing burning Chaos Blades around you damaging, igniting and making enemies bleed.",
+      "baseDamage": "60",
+      "baseCooldown": "None",
+      "baseAmount": "1",
+      "damageType": "Physical / Fire",
+      "abilityType": "Melee",
+      "ability1": "Whirl Slash",
+      "ability2": "Giant's Tooth",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "odins_ice_arrows": {
+      "class": "forged",
+      "title": "Odin's Ice Arrows",
+      "img": "forged/odins_ice_arrows.png",
+      "description": "Shoot Odin's icy arrows towards random targets, freezing them in place, exploding and applying shock on impact.",
+      "baseDamage": "170",
+      "baseCooldown": "11",
+      "baseAmount": "5",
+      "damageType": "Ice / Lightning",
+      "abilityType": "Ranged",
+      "ability1": "Skadi's Ice Arrow",
+      "ability2": "Gungir",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "stormpiercer": {
+      "class": "forged",
+      "title": "Stormpiercer",
+      "img": "forged/stormpiercer.png",
+      "description": "Throw Gungnir at a random target, exploding on impact.",
+      "baseDamage": "40",
+      "baseCooldown": "5",
+      "baseAmount": "1",
+      "damageType": "Physical / Lightning",
+      "abilityType": "Summon / Ranged",
+      "ability1": "Ballista",
+      "ability2": "Yggdrasil's Pulse",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "frostfang_ring": {
+      "class": "forged",
+      "title": "Frostfang Ring",
+      "img": "forged/frostfang_ring.png",
+      "description": "Summon a giant frost wall around you errupting from the ground and moving outwards.",
+      "baseDamage": "150",
+      "baseCooldown": "10",
+      "baseAmount": "1",
+      "damageType": "Physical / Ice",
+      "abilityType": "Melee / Ranged",
+      "ability1": "Shattering Ground",
+      "ability2": "Glacial Sunder",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "thunderclaw": {
+      "class": "forged",
+      "title": "Thunderclaw",
+      "img": "forged/thunderclaw.png",
+      "description": "Throw Gungnir at a random target, exploding on impact.",
+      "baseDamage": "200",
+      "baseCooldown": "8",
+      "baseAmount": "5",
+      "damageType": "Physical / Lightning",
+      "abilityType": "Ranged",
+      "ability1": "Fenrir's Claws",
+      "ability2": "Thor's Wrath",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    },
+    "helstorm": {
+      "class": "forged",
+      "title": "Helstorm",
+      "img": "forged/helstorm.png",
+      "description": "Summon flaming tornados infused with frost from Hel shooting out piercing icicles.",
+      "baseDamage": "210",
+      "baseCooldown": "9",
+      "baseAmount": "2",
+      "damageType": "Fire / Ice",
+      "abilityType": "Melee / Ranged",
+      "ability1": "Surtur's Inferno",
+      "ability2": "Flurry of Knives",
+      "url": "/abilities/forged.php",
+      "page": "Forged Abilities"
+    }
+  },
+
+  "abilities": {
+    "physical": {
+      "col": "col-6 col-sm-12",
+      "class": "physical",
+      "img": "icons/physical_icon.png",
+      "title": "Physical abilities",
+      "damageType": "Physical",
+      "statusEffect": "Bleed",
+      "effectOnHit": "Cause bleed (damage over time)",
+      "url": "physical.php"
+    },
+    "fire": {
+      "col": "col-6 col-sm-12",
+      "class": "fire",
+      "img": "icons/fire_icon.png",
+      "title": "Fire abilities",
+      "damageType": "Fire",
+      "statusEffect": "Burn / Ignite",
+      "effectOnHit": "Deals Burn / Ignite damage over time",
+      "url": "fire.php"
+    },
+    "ice": {
+      "col": "col-6 col-sm-12",
+      "class": "ice",
+      "img": "icons/ice_icon.png",
+      "title": "Ice abilities",
+      "damageType": "Ice",
+      "statusEffect": "Chill",
+      "effectOnHit": "Applies Chill, slowing movement/attack",
+      "url": "ice.php"
+    },
+    "lightning": {
+      "col": "col-6 col-sm-12",
+      "class": "lightning",
+      "img": "icons/lightning_icon.png",
+      "title": "Lightning abilities",
+      "damageType": "Lightning",
+      "statusEffect": "Shock",
+      "effectOnHit": "Applies Shock, increasing damage taken",
+      "url": "lightning.php"
+    },
+    "forged": {
+      "col": "col-12",
+      "class": "forged",
+      "img": "icons/forged_icon.png",
+      "title": "Forged abilities",
+      "damageType": "Physical, Fire, Ice, Lightning",
+      "statusEffect": "Bleed, Burn/Ignite, Chill, Shock",
+      "effectOnHit": "Cause bleed (damage over time), Deals Burn / Ignite damage over time, Applies Chill, slowing movement/attack, Applies Shock, increasing damage taken",
+      "url": "forged.php"
+    }
+  }
+}

@@ -1,0 +1,1076 @@
+/* INIT ************************************************************/
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Germania;
+  src: url(/Asgards_Fall_Wiki/assets/font/GermaniaOne-Regular.woff2)
+    format(woff2);
+}
+
+:root {
+  --black: rgb(24, 20, 37);
+  --white: rgb(255, 255, 255);
+  --red: rgb(255, 0, 68);
+  --physical: #f90042ff;
+  --fire: #e7835dff;
+  --ice: #4ba1f8ff;
+  --lightning: #f9df75ff;
+  --cursed: #a400f8ff;
+  --poison: #caf96dff;
+  --forged: #a301f7;
+}
+
+html {
+  font-family: Germania;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* HEADER ***********************************************************/
+
+header {
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  opacity: 90%;
+
+  .logo:hover {
+    transition: 0.5s ease 0.05s;
+    max-width: 175px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    a {
+      transition: 0.5s ease 0.05s;
+      margin: 0 25px;
+      font-size: 30px;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    a:hover {
+      transition: 0.5s ease 0.05s;
+      color: var(--red);
+      font-size: 35px;
+    }
+  }
+}
+
+.hbg {
+  width: 40px;
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hbg span {
+  display: block;
+  height: 4px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* MAIN *************************************************************/
+
+main {
+  padding: 25px;
+  background-color: var(--black);
+}
+
+/* FOOTER ***********************************************************/
+
+/* <CLASS> **********************************************************/
+
+.logo {
+  transition: 0.5s ease 0.05s;
+  max-width: 150px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.unmute {
+  display: none;
+}
+
+.button {
+  transition: 0.5s ease 0.05s;
+  display: block;
+  margin: 10px;
+  border-radius: 25px;
+  border: solid 3px var(--red);
+  padding: 15px 40px;
+  color: var(--white);
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.button:hover {
+  transition: 0.5s ease 0.05s;
+  background-color: var(--red);
+  padding: 18px 45px;
+  font-size: 28px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  .left1 {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 5px;
+    min-height: 100%;
+    background-color: var(--red);
+  }
+
+  .left2 {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 5px;
+    min-height: 100%;
+    background-color: var(--red);
+  }
+
+  .right1 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    width: 5px;
+    min-height: 100%;
+    background-color: var(--red);
+  }
+
+  .right2 {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 5px;
+    min-height: 100%;
+    background-color: var(--red);
+  }
+
+  .physical {
+    background-color: var(--physical);
+  }
+
+  .fire {
+    background-color: var(--fire);
+  }
+
+  .ice {
+    background-color: var(--ice);
+  }
+
+  .lightning {
+    background-color: var(--lightning);
+  }
+
+  .forged {
+    background-color: var(--forged);
+  }
+
+  .poison {
+    background-color: var(--poison);
+  }
+
+  .cursed {
+    background-color: var(--cursed);
+  }
+}
+
+.space {
+  height: 130px;
+}
+
+/* TABLE ************************************************************/
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--red);
+  width: 80%;
+}
+
+thead,
+tfoot {
+  background-color: var(--red);
+}
+
+th {
+  border: 1px solid var(--black);
+  padding: 8px 10px;
+  font-weight: 400;
+}
+
+td {
+  border: 1px solid var(--red);
+  padding: 8px 10px;
+}
+
+/* BOX **************************************************************/
+
+.box {
+  background-color: var(--black);
+  border-radius: 25px;
+  border: double 10px var(--red);
+  padding: 35px;
+  opacity: 95%;
+}
+
+/* CARD *************************************************************/
+
+.card {
+  background-color: var(--black);
+  border: double 10px var(--red);
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--white);
+  opacity: 95%;
+
+  b {
+    color: var(--red);
+  }
+}
+
+.card-icon {
+  max-width: 300px;
+  margin: 15px;
+}
+
+.card-title {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 600;
+  margin: 10px;
+  color: var(--red);
+}
+
+.card-desc {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.card-button {
+  transition: 0.5s ease 0.05s;
+  display: block;
+  margin: 10px;
+  border-radius: 25px;
+  border: solid 3px var(--red);
+  padding: 10px 30px;
+  color: var(--white);
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.card-button:hover {
+  transition: 0.5s ease 0.05s;
+  background-color: var(--red);
+  padding: 12px 36px;
+  font-size: 21px;
+}
+
+/* MAIN-CARD ********************************************************/
+
+.main-card {
+  background-color: var(--red);
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.main-card-title {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+/* PHYSICAL *********************************************************/
+
+table.physical {
+  border: 2px solid var(--physical);
+}
+
+thead.physical {
+  background-color: var(--physical);
+}
+
+td.physical {
+  border: 1px solid var(--physical);
+}
+
+.box.physical {
+  border: double 10px var(--physical);
+}
+
+.main-card.physical {
+  background-color: var(--physical);
+}
+
+.card.physical {
+  border: double 10px var(--physical);
+}
+
+.card-title.physical {
+  color: var(--physical);
+}
+
+.card-desc.physical {
+  b {
+    color: var(--physical);
+  }
+}
+
+.card-button.physical {
+  border: solid 3px var(--physical);
+}
+
+.card-button.physical:hover {
+  background-color: var(--physical);
+}
+
+.button.physical {
+  border: solid 3px var(--physical);
+}
+
+.button.physical:hover {
+  background-color: var(--physical);
+}
+
+/* FIRE ************************************************************/
+
+table.fire {
+  border: 2px solid var(--fire);
+}
+
+thead.fire {
+  background-color: var(--fire);
+}
+
+td.fire {
+  border: 1px solid var(--fire);
+}
+
+.box.fire {
+  border: double 10px var(--fire);
+}
+
+.main-card.fire {
+  background-color: var(--fire);
+}
+
+.card.fire {
+  border: double 10px var(--fire);
+}
+
+.card-title.fire {
+  color: var(--fire);
+}
+
+.card-desc.fire {
+  b {
+    color: var(--fire);
+  }
+}
+
+.card-button.fire {
+  border: solid 3px var(--fire);
+}
+
+.card-button.fire:hover {
+  background-color: var(--fire);
+}
+
+.button.fire {
+  border: solid 3px var(--fire);
+}
+
+.button.fire:hover {
+  background-color: var(--fire);
+}
+
+/* ICE *************************************************************/
+
+table.ice {
+  border: 2px solid var(--ice);
+}
+
+thead.ice {
+  background-color: var(--ice);
+}
+
+td.ice {
+  border: 1px solid var(--ice);
+}
+
+.box.ice {
+  border: double 10px var(--ice);
+}
+
+.main-card.ice {
+  background-color: var(--ice);
+}
+
+.card.ice {
+  border: double 10px var(--ice);
+}
+
+.card-title.ice {
+  color: var(--ice);
+}
+
+.card-desc.ice {
+  b {
+    color: var(--ice);
+  }
+}
+
+.card-button.ice {
+  border: solid 3px var(--ice);
+}
+
+.card-button.ice:hover {
+  background-color: var(--ice);
+}
+
+.button.ice {
+  border: solid 3px var(--ice);
+}
+
+.button.ice:hover {
+  background-color: var(--ice);
+}
+
+/* LIGHTNING *******************************************************/
+
+table.lightning {
+  border: 2px solid var(--lightning);
+}
+
+thead.lightning {
+  background-color: var(--lightning);
+}
+
+td.lightning {
+  border: 1px solid var(--lightning);
+}
+
+.box.lightning {
+  border: double 10px var(--lightning);
+}
+
+.main-card.lightning {
+  background-color: var(--lightning);
+}
+
+.card.lightning {
+  border: double 10px var(--lightning);
+}
+
+.main-card-title.lightning {
+  color: var(--black);
+}
+
+.card-title.lightning {
+  color: var(--lightning);
+}
+
+.card-desc.lightning {
+  b {
+    color: var(--lightning);
+  }
+}
+
+.card-button.lightning {
+  border: solid 3px var(--lightning);
+}
+
+.card-button.lightning:hover {
+  background-color: var(--lightning);
+  color: var(--black);
+}
+
+.button.lightning {
+  border: solid 3px var(--lightning);
+}
+
+.button.lightning:hover {
+  background-color: var(--lightning);
+  color: var(--black);
+}
+
+/* FORGED *********************************************************/
+
+table.forged {
+  border: 2px solid var(--forged);
+  width: 90%;
+}
+
+thead.forged {
+  background-color: var(--forged);
+}
+
+td.forged {
+  border: 1px solid var(--forged);
+}
+
+.box.forged {
+  border: double 10px var(--forged);
+}
+
+.main-card.forged {
+  background-color: var(--forged);
+}
+
+.card.forged {
+  border: double 10px var(--forged);
+}
+
+.card-title.forged {
+  color: var(--forged);
+}
+
+.card-desc.forged {
+  b {
+    color: var(--forged);
+  }
+}
+
+.card-button.forged {
+  border: solid 3px var(--forged);
+}
+
+.card-button.forged:hover {
+  background-color: var(--forged);
+}
+
+.button.forged {
+  border: solid 3px var(--forged);
+}
+
+.button.forged:hover {
+  background-color: var(--forged);
+}
+
+/* POISON *********************************************************/
+
+table.poison {
+  border: 2px solid var(--poison);
+  width: 90%;
+}
+
+thead.poison {
+  background-color: var(--poison);
+  color: var(--black);
+}
+
+td.poison {
+  border: 1px solid var(--poison);
+}
+
+.box.poison {
+  border: double 10px var(--poison);
+}
+
+.main-card.poison {
+  background-color: var(--poison);
+}
+
+.main-card-title.poison {
+  color: var(--black);
+}
+
+.card.poison {
+  border: double 10px var(--poison);
+}
+
+.card-title.poison {
+  color: var(--poison);
+}
+
+.card-desc.poison {
+  b {
+    color: var(--poison);
+  }
+}
+
+.card-button.poison {
+  border: solid 3px var(--poison);
+  color: var(--white);
+}
+
+.card-button.poison:hover {
+  background-color: var(--poison);
+  color: var(--black);
+}
+
+.button.poison {
+  border: solid 3px var(--poison);
+}
+
+.button.poison:hover {
+  background-color: var(--poison);
+}
+
+/* CURSED *********************************************************/
+
+table.cursed {
+  border: 2px solid var(--cursed);
+  width: 90%;
+}
+
+thead.cursed {
+  background-color: var(--cursed);
+  color: var(--black);
+}
+
+td.cursed {
+  border: 1px solid var(--cursed);
+}
+
+.box.cursed {
+  border: double 10px var(--cursed);
+}
+
+.main-card.cursed {
+  background-color: var(--cursed);
+}
+
+.card.cursed {
+  border: double 10px var(--cursed);
+}
+
+.card-title.cursed {
+  color: var(--cursed);
+}
+
+.card-desc.cursed {
+  b {
+    color: var(--cursed);
+  }
+}
+
+.card-button.cursed {
+  border: solid 3px var(--cursed);
+}
+
+.card-button.cursed:hover {
+  background-color: var(--cursed);
+}
+
+.button.cursed {
+  border: solid 3px var(--cursed);
+}
+
+.button.cursed:hover {
+  background-color: var(--cursed);
+}
+
+/* </CLASS> *********************************************************/
+
+/* GRID *************************************************************/
+
+.container {
+  width: 1200px;
+  margin-inline: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 50px;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.col-0 {
+  display: none;
+}
+
+/* MEDIA QUERIES *****************************************************/
+
+@media screen and (max-width: 1350px) {
+  /* HEADER **********************************************************/
+
+  header {
+    padding: 8px;
+
+    .logo {
+      max-width: 130px;
+    }
+
+    .logo:hover {
+      max-width: 150px;
+    }
+
+    nav {
+      a {
+        margin: 0 20px;
+        font-size: 25px;
+      }
+
+      a:hover {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .main-card-title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .container {
+    width: 900px;
+  }
+
+  .col-md-1 {
+    grid-column: span 1;
+  }
+
+  .col-md-2 {
+    grid-column: span 2;
+  }
+
+  .col-md-3 {
+    grid-column: span 3;
+  }
+
+  .col-md-4 {
+    grid-column: span 4;
+  }
+
+  .col-md-5 {
+    grid-column: span 5;
+  }
+
+  .col-md-6 {
+    grid-column: span 6;
+  }
+
+  .col-md-7 {
+    grid-column: span 7;
+  }
+
+  .col-md-8 {
+    grid-column: span 8;
+  }
+
+  .col-md-9 {
+    grid-column: span 9;
+  }
+
+  .col-md-10 {
+    grid-column: span 10;
+  }
+
+  .col-md-11 {
+    grid-column: span 11;
+  }
+
+  .col-md-12 {
+    grid-column: span 12;
+  }
+
+  .col-md-0 {
+    display: none;
+  }
+
+  .col-0 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .row {
+    gap: 0;
+  }
+
+  header {
+    padding: 8px;
+
+    .logo {
+      max-width: 130px;
+    }
+
+    .logo:hover {
+      max-width: 150px;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+
+  .hbg {
+    display: flex;
+  }
+
+  .main-card {
+    margin-bottom: 15px;
+  }
+
+  .card {
+    margin: 15px 0;
+  }
+
+  .card-desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-icon {
+    max-width: 250px;
+  }
+
+  .card-button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+
+  .col-sm-0 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    margin: 10px 0;
+  }
+
+  .card-desc {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-icon {
+    max-width: 200px;
+  }
+
+  .card-button {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .col-xs-1 {
+    grid-column: span 1;
+  }
+
+  .col-xs-2 {
+    grid-column: span 2;
+  }
+
+  .col-xs-3 {
+    grid-column: span 3;
+  }
+
+  .col-xs-4 {
+    grid-column: span 4;
+  }
+
+  .col-xs-5 {
+    grid-column: span 5;
+  }
+
+  .col-xs-6 {
+    grid-column: span 6;
+  }
+
+  .col-xs-7 {
+    grid-column: span 7;
+  }
+
+  .col-xs-8 {
+    grid-column: span 8;
+  }
+
+  .col-xs-9 {
+    grid-column: span 9;
+  }
+
+  .col-xs-10 {
+    grid-column: span 10;
+  }
+
+  .col-xs-11 {
+    grid-column: span 11;
+  }
+
+  .col-xs-12 {
+    grid-column: span 12;
+  }
+
+  .mute {
+    display: none;
+  }
+
+  .unmute {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  [class*="col-"]:not(.freeze) {
+    grid-column: span 12 !important;
+  }
+}
